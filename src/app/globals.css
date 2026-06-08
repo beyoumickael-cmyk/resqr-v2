@@ -1,0 +1,26 @@
+@import "../../resqr-tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--rq-bg);
+  color: var(--rq-text);
+  font-family: var(--rq-font-ui);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
